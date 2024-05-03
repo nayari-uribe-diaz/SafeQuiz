@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}Transpiration{% endblock %}
+
+{% block content %}
+  <h1 class="container mt-5 mb-3">Question 2: What is the correct definition for transpiration?</h1>
+
+ <form action={{ url_for("renderPage3") }} method="POST" class="stuff container">
+	Transpiration is...<br>
+	<input type="radio" id="q2" name="questionTwo" value="the evaporation of water from a plant's leaves, stem, or flowers.">
+	  	<label for="q2">...the evaporation of water from a plant's leaves, stem, or flowers.</label><br>
+	<input type="radio" id="q2.1" name="questionTwo" value="the process of a plant making glucose and water from photosynthesis.">
+	  	<label for="q2.1">...the process of a plant making glucose and water from photosynthesis.</label><br>
+	<input type="radio" id="q2.2" name="questionTwo" value="the evaporation of water.">
+	  	<label for="q2.2">...the evaporation of water.</label>
+	    <input type="submit" class="submit" value="Submit">
+ </form> 
+
+
+
+{% endblock %}

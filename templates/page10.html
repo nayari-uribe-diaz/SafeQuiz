@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}Page 3--Now we know everything!{% endblock %}
+
+{% block content %}
+  <h1 class="container mt-5 mb-3">Now I know:</h1>
+
+<ul class="other container">
+ <li> The scientific name for a common daisy is: <i class="{{q1}}">{{ session['scientificName'] }}</i> </li>
+ <li> Transpiration is <ins class= "{{q2}}">{{ session['questionTwo'] }}</ins> </li>
+ <li> The part of a vascular plant that's responsible for transporting and storing water/water
+ soluble nutrients is the <i class= "{{q3_1}}">{{ session['1questionThree'] }}</i>.</li>
+ <li>The part of a plant that is responsible for transporting proteins, sugars, and other organic 
+ molecules is the <i class= "{{q3_2}}">{{ session['2questionThree'] }}</i>.</li>
+</ul>
+
+
+
+{% endblock %}
