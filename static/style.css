@@ -1,6 +1,6 @@
 body {
-    background-color: #ffffcc;
-    color: black;
+    background-color: cadetblue;
+    color: moccasin;
 }
 
 h1{
@@ -18,19 +18,20 @@ h1{
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #04AA6D;
-  border: none;
+  background-color: moccasin;
+  border: 3px solid snow;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 9px #4a818f;
 }
 
 .button1:hover {
-	background-color: #3e8e41
+	background-color: #edc98c;
+	color: moccasin;
 }
 
 .button1:active {
   background-color: pink;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 5px #4a818f;
   transform: translateY(4px);
 }
 
@@ -44,19 +45,19 @@ h1{
   text-decoration: none;
   outline: none;
   color: #9af6fc;
-  background-color: #2E2836;
-  border: none;
+  background-color: sienna;
+  border: 3px solid snow;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 9px #4a818f;
 }
 
 .button2:hover {
-	background-color: white;
+	background-color: #a13f12;
 }
 
 .button2:active {
-  background-color: gray;
-  box-shadow: 0 5px #666;
+  background-color: lightblue;
+  box-shadow: 0 5px #4a818f;
   transform: translateY(4px);
 }
 
@@ -69,25 +70,39 @@ h1{
 	text-align: center;
 	text-decoration: none;
 	outline: none;
-	color: #fff;
-	background-color: #04AA6D;
-	border: none;
+	color: sienna;
+	background-color: moccasin;
+	border: 3px solid snow;
 	border-radius: 15px;
-	box-shadow: 0 9px #999;
+	box-shadow: 0 9px #4a818f;
 }
 
 .submit:hover{
-	background-color: blue;
+	background-color: #edc98c;
 } 
 
 .submit:active{
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  background-color: lightblue;
+  box-shadow: 0 5px #4a818f;
   transform: translateY(4px);
 }
 
 a{
-	color: white;
+	color: sienna;
+}
+
+.a2{
+	color: moccasin;
+}
+
+.boxed {
+	background-color: moccasin;
+	border-radius: 15px;
+	border: 3px solid snow;
+	color: sienna;
+	display: block;
+	margin: auto;
+	align-items: center;
 }
 
 .stuff{
@@ -112,3 +127,12 @@ a{
 .incorrect{
 	color: red;
 }
+
+
+.container2 {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
